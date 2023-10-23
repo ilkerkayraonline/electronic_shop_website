@@ -3,6 +3,8 @@
 
 <p> Bildiğim ya da deneyimlemeye çalıştığım tüm buton ve ikon yapılarını kullanmaya çalıştım</p>
 
+<p>-------   -------   -------   -------</p>
+
 
 <p> In this project draft, first of all, the HTML structure, Bootstrap libraries, and CSS structure were used.</p>
 
