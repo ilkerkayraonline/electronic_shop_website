@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAYRA ELEKTRONİK MARKET</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!--! bootstrap linkleri -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!--! bootstrap linkleri -->
+    <!--* FONT LİNKLERİ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!--* FONT LİNKLERİ -->
+  </head>
+  <body>
+    <!--! TOP NAVBAR -->
+    <div class="top-navbar">
+      <p>SİTEMİZE HOŞGELDİNİZ</p>
+      <div class="icons">
+        <a href="login.html"
+          ><img src="/images/register.png" alt="" width="18px" />Giriş</a
+        >
+        <a href="register.html"
+          ><img src="/images/register.png" alt="" width="18px" />Kayıt Ol</a
+        >
+      </div>
+    </div>
+    <!--! TOP NAVBAR -->
+
+    <!--! NAVBAR -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="logo"
+          ><span id="span1">KAYRA</span> - Elektronik<span> Market</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><img src="/images/menu.png" alt="" width="30px" /></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="home1"
+                aria-current="page"
+                href="index.html"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ürünler</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kategoriler
+              </a>
+              <ul
+                class="dropdown-menu"
+                style="background-color: rgb(67, 0, 86)"
+              >
+                <li><a class="dropdown-item" href="#">IOS Telefon</a></li>
+                <li><a class="dropdown-item" href="#">Android Telefon </a></li>
+                <li><a class="dropdown-item" href="#">Kamera</a></li>
+                <li><a class="dropdown-item" href="#">Buzdolabı</a></li>
+                <li><a class="dropdown-item" href="#">Klima</a></li>
+                <li><a class="dropdown-item" href="#">Akıllı Saat</a></li>
+                <li><a class="dropdown-item" href="#">Kulaklık</a></li>
+                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                <li><a class="dropdown-item" href="#">Monitör</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">İletişim</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search" id="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Ara"
+              aria-label="Ara"
+            />
+            <button class="btn btn-outline-success" type="submit">Ara</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--! NAVBAR -->
+
+    <!--! LOGIN -->
+
+    <div class="container" id="login">
+      <div class="row">
+        <div class="col-md-5 py-3 py-md-0" id="side1">
+          <h3 class="text-center">Kayıt Ol</h3>
+        </div>
+        <div class="col-md-7 py-3 py-md-0" id="side2">
+          <h3 class="text-center">Hesap Oluştur</h3>
+          <div class="input2 text-center">
+            <input type="name" placeholder="Ad" />
+            <input type="name" placeholder="Soyad" />
+            <input type="number" placeholder="Telefon" />
+            <input type="email" placeholder="E-mail" />
+            <input type="password" placeholder="Şifre" />
+          </div>
+          <p class="text-center" id="btnlogin"><a href="#">Kayıt Ol</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!--! LOGIN -->
+
+    <!--! NEWSLATER -->
+
+    <div class="container" id="newslater">
+      <h3 class="text-center">
+        Gelişmelerden Haberdar Olmak İçin Bizi Takip Edin
+      </h3>
+      <div class="input text-center">
+        <input type="text" placeholder="E-mail Adresinizi Yazınız" />
+        <button id="subscribe">Takip Edin</button>
+      </div>
+    </div>
+    <!--! NEWSLATER -->
+
+    <!--! FOOTER -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Elektronik Marketlerimiz</h3>
+              <p>
+                Nişantaşı <br />
+                Bayburt <br />
+                Keşan<br />
+              </p>
+              <strong>Phone:</strong>+90 000 000 00 000 000 <br />
+              <strong>Email:</strong>elektronicshop@mail.com <br />
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Önemli Linkler</h4>
+              <ul>
+                <li><a href="">Anasayfa</a></li>
+                <li><a href="">Hakkımızda</a></li>
+                <li><a href="">Servis</a></li>
+                <li><a href="">Kullanım Şartları</a></li>
+                <li><a href="">Güvenlik Politikası</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Hizmetlerimiz</h4>
+              <ul>
+                <li><a href="">PS 5</a></li>
+                <li><a href="">Bilgisayar</a></li>
+                <li><a href="">Oyuncu Laptop</a></li>
+                <li><a href="">Mobil Telefon</a></li>
+                <li><a href="">Oyuncu Aksesuarları</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Sosyal Ağlarımız</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate, libero.
+              </p>
+              <div class="social-links mt-3">
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-skype"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container py-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Kayra Elektronik Market</span></strong
+          >. Tüm Hakları Saklıdır
+        </div>
+        <div class="credits">
+          <a href="#"> İlker KAYRA</a> Tarafından Tasarlanmıştır | 2023
+        </div>
+      </div>
+    </footer>
+    <!--! FOOTER -->
+
+    <a href="#" class="arrow"
+      ><i><img src="/images/arrow.png" alt="" /></i
+    ></a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
